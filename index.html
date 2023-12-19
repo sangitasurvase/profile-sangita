@@ -4,19 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        nav a{
+            margin-right: 40px;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+        #homeLink{
+            margin-left: 10px;
+        }
+        header{
+            text-align: right
+            ;
+        }
+        header span{
+            margin: 20px;
+            text-align: right;
+        }
+        header img{
+            width: 10px;
+            height: 10px;
+        }
+        footer span{
+            margin: 20px;
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
    <!-- Header Section -->
    <header>
-    <span> Name: GK Sir &nbsp;&nbsp;&nbsp;&nbsp; Mobile: 8600 2550 66 &nbsp;&nbsp;&nbsp;&nbsp; Email: abc@gmail.com</span>
+    <img src="assets/developer.png" alt="">
+    <span> <i class="fa fa-user" aria-hidden="true"></i> GK Sir</span> 
+        <span> <i class="fa fa-phone-square" aria-hidden="true"></i> 8600 2550 66</span>
+            <span><i class="fa fa-envelope" aria-hidden="true"></i> abc@gmail.com</span>
 </header>
 <hr>
 <!-- Navigation Section -->
 <nav>
-    <a href="home.html" target="mainFrame">HOME</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="techStack.html" target="mainFrame">TECH STACK</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="project.html" target="mainFrame">PROJECT</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="education.html" target="mainFrame">EDUCATION</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="home.html" target="mainFrame" id="homelink">HOME</a> 
+    <a href="techStack.html" target="mainFrame">TECH STACK</a> 
+    <a href="project.html" target="mainFrame">PROJECT</a> 
+    <a href="education.html" target="mainFrame">EDUCATION</a> 
     <a href="others.html" target="mainFrame">OTHERS</a>
 </nav>
 <hr>
@@ -27,9 +61,15 @@
 <hr>
 <!-- Footer Section -->
 <footer>
-    <a href="https://www.linkedin.com/in/sangita-survase-59904b294">Linked IN</a> &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/sangitasurvase">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.google.com/search?q=nokari.com&sca_esv=590380016&sxsrf=AM9HkKkEunHjdw4TclFsMVZ4vw2UPTZXIg%3A1702462830262&ei=boV5ZdPCD4yNnesPoZuS2A4&ved=0ahUKEwjTsfahmIyDAxWMRmcHHaGNBOsQ4dUDCBA&uact=5&oq=nokari.com&gs_lp=Egxnd3Mtd2l6LXNlcnAiCm5va2FyaS5jb20yChAAGIAEGBQYhwIyDRAuGIAEGMcBGNEDGAoyChAAGIAEGBQYhwIyBRAAGIAEMg0QABiABBixAxiDARgKMgcQABiABBgKMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiZSlChJVjHM3ABeAGQAQCYAZACoAHFBqoBBTAuMy4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICExAuGIAEGIoFGEMYxwEY0QMYsAPCAhMQLhiDARjHARixAxjRAxiABBgKwgITEC4YgAQYsQMYgwEYxwEY0QMYCuIDBBgAIEGIBgGQBgk&sclient=gws-wiz-serp">Naukri</a>
+<span>
+    <a href="https://www.linkedin.com/in/sangita-survase-59904b294" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+</span> 
+<span>
+    <a href="https://github.com/sangitasurvase" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+</span>
+<span>
+    <a href="https://www.google.com/search?q=nokari.com&sca_esv=590380016&sxsrf=AM9HkKkEunHjdw4TclFsMVZ4vw2UPTZXIg%3A1702462830262&ei=boV5ZdPCD4yNnesPoZuS2A4&ved=0ahUKEwjTsfahmIyDAxWMRmcHHaGNBOsQ4dUDCBA&uact=5&oq=nokari.com&gs_lp=Egxnd3Mtd2l6LXNlcnAiCm5va2FyaS5jb20yChAAGIAEGBQYhwIyDRAuGIAEGMcBGNEDGAoyChAAGIAEGBQYhwIyBRAAGIAEMg0QABiABBixAxiDARgKMgcQABiABBgKMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiZSlChJVjHM3ABeAGQAQCYAZACoAHFBqoBBTAuMy4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICExAuGIAEGIoFGEMYxwEY0QMYsAPCAhMQLhiDARjHARixAxjRAxiABBgKwgITEC4YgAQYsQMYgwEYxwEY0QMYCuIDBBgAIEGIBgGQBgk&sclient=gws-wiz-serp" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a>
+</span>
 </footer>
 </body>
 </html>
