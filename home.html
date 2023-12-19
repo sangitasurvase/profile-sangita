@@ -19,6 +19,7 @@
             color: aqua;
             background-color:gray;
             font-family: 'Poppins', sans-serif;
+        }
         #angular{
             color: #ff4500;
         }
@@ -28,10 +29,21 @@
             color: darkorchid;
             font-weight: bold;
         }
-ul li{
+    ul li{
     list-style-type: circle;
 
 }
+#emoji li::before{
+            content: "👉";
+        }
+        #emoji li{
+            list-style-type: none;
+        }
+body{
+    
+            box-shadow: 10px 10px 5px 0px rgba(41, 100, 237, 0.75);
+        }
+
        
      </style>
 </head>
@@ -41,8 +53,8 @@ ul li{
     TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILL AND HELP ORGANIZAL GROWTH
 
     <h1 class="carrer">profetoinal summary</h1>
-    <ul>
-        <li>having 1year of experience in developing single page web applications using <span id="angular">angular 8</span>,html 5css3</li>
+    <ul id="emoji" >
+        <li >having 1year of experience in developing single page web applications using <span id="angular">angular 8</span>,html 5css3</li>
         <li id="experience">experience on working with version control system git and github
         </li>
         <li>experience working with JIRA for user stories and bug traking</li>
